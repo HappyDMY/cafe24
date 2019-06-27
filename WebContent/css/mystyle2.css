@@ -1,0 +1,164 @@
+/*mystyle.css*/
+	 body {
+	    font-size: 15x; 
+	    font-family: 'Kosugi Maru', sans-serif;
+	    line-height: 1.8;
+	    color: #ffffff;
+	 }
+	   .left carousel-control {} 
+	    
+	  
+	  .filter {filter: grayscale(150%);
+	   
+	  }
+	  p {font-size: 15px;}
+	  .margin {margin-bottom: 100px;}
+	  .bg-1 { 
+	    background-color: #ffffff;  /* White */
+	    color:#555555;
+	     boder-style: solid; 
+	    border-width: 10px;
+	  }
+	  .bg-2 { 
+	    background-color: #ffffff;  /* White */
+	    color: #555555;
+	
+	  }
+	  .bg-3 { 
+	    background-color: #ffffff; /* White */
+	    color: #555555;
+	  }
+	  .bg-4 { 
+	    background-color: #ffffff;  
+	    color: #555555;
+	  }
+	  .container-fluid {
+	    padding-top:10px;
+	    padding-bottom:60px;
+	  }
+	  .navbar {
+	    padding-top: 15px;
+	    padding-bottom: 15px;
+	    border: 0;
+	    border-radius: 0;
+	    margin-bottom: 0;
+	    font-size: 12px;
+	    letter-spacing: 5px;
+	    background-color:#ffffff;
+	  }
+	  .navbar-nav  li a:hover {
+	    color: #58edb1!important;
+	  }
+  
+ 	.time{ background-color:#ffffff; 
+				     color:#555555;
+		   text-align:center;	
+		   border:1px solid #cdcdcd;
+		   border-radius: 30px;	 
+		   font-family:"�섎닎�ㅽ�섏뼱";
+		   font-size:20px;
+		   text-shadow: 0px 0px 5px #ffffff;
+		   cursor: pointer; 
+		   border-style: hidden;
+			 }
+				 
+		body{line-height: 1.6em;
+			 text-align : center;
+			 background-color:#ffffff; 
+			}
+		th{text-align : center;
+		 	font-family: arial}
+		td{ font-family: arial
+			text-align : center;}
+
+/*  stylesheet  */
+		
+		table {
+			width: 0%;
+			text-align:center;
+			margin: auto;
+			border-style:solid;
+		    background-color: rgba( 255, 255, 255, 0.5 );
+		    opacity: 0.8;
+			
+		}
+		
+		
+		tr, td, th {
+			text-align:center;
+			padding: 20px 20px 20px 20px;
+			margin: auto;
+			border-top: 0;
+			border-right: 0;
+			border-bottom: 1px solid;
+			border-left: 1px solid;
+			border-color: #ffffff;
+			background-color: rgba( 255, 255, 255, 0.5 );
+			font-size: 12pt;
+			font-family: 'Kosugi Maru', sans-serif;
+			
+		}
+
+		td{
+        	background-color: rgba( 255, 255, 255, 0.5 );
+        	display: table-cell;
+    		vertical-align: inherit;
+		}
+
+		td:hover{
+			 background-color: #ffffff; color:#000000;
+        	 opacity: 2.0;
+			 cursor: default;
+		}
+
+		th{
+			background-color: #ffffff; color:black;	
+        	 opacity: 0.8;
+        	 
+		}
+		div {
+			text-align: center;
+			padding: 20px 20px 20px 20px;
+		}
+			 
+	 a:link {
+			color: #05055f;
+			font-style:normal;
+			text-decoration: none;
+		}
+		a:hover{
+			color: #432124;
+			font-style:normal;
+			text-decoration: underline;
+		}
+		a:visited {
+			color:#432124;
+			font-style:normal;
+			text-decoration: none;
+		}
+		
+		.carousel-control {
+			  position: absolute;
+			  top: 0;
+			  left: 0;
+			  bottom: 0;
+			  width: 0;
+			  .opacity(@carousel-control-opacity);
+			  font-size: @carousel-control-font-size;
+			  color: @carousel-control-color;
+			  text-align: center;
+			  text-shadow: @carousel-text-shadow;
+			  background-color: rgba(0, 0, 0, 0); 
+		}
+		
+		table td {
+			padding:10px;
+			border-top: 1px solid #ffffff;
+			border-bottom:1px solid #ffffff;
+			border-left: 1px solid #e0e0e0;
+		
+			background: #ffffff;
+			background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+			background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+	}
+  </style>

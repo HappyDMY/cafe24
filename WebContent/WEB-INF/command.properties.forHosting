@@ -1,0 +1,12 @@
+/index.do=net.action.Index
+/bbs2/bbsform.do=net.bbs2.BbsForm
+/bbs2/bbsinsert.do=net.bbs2.BbsInsert
+/bbs2/bbslist.do=net.bbs2.BbsList
+/bbs2/bbscontent.do=net.bbs2.BbsContent
+/bbs2/bbsdelete.do=net.bbs2.BbsDelete
+/bbs2/bbsupdate.do=net.bbs2.BbsUpdate
+/bbs2/bbsupdateproc.do=net.bbs2.BbsUpdateProc
+
+/member2/loginform.do=net.member2.LoginForm
+/member2/loginproc.do=net.member2.LoginProc
+/member2/logout.do=net.member2.Logout
